@@ -29,7 +29,8 @@ const Insights = () => {
               </span>
               <h2 className="text-4xl md:text-5xl font-serif leading-tight font-black text-slate-900">
                 Financial <br />
-                Insights<span className="text-[#C93D33]">.</span>
+                <span className="text-red-500">Insights</span>
+                <span className="text-slate-300">.</span>
               </h2>
               <p className="mt-8 text-sm text-slate-400 leading-relaxed max-w-xs">
                 Perspectives on public finance, treasury management, and

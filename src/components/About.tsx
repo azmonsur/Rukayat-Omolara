@@ -16,7 +16,8 @@ const About = () => {
               </span>
               <h2 className="text-4xl md:text-5xl font-serif leading-tight font-black text-slate-900">
                 Mission & <br />
-                Approach<span className="text-slate-300">.</span>
+                <span className="text-red-500">Aproach</span>
+                <span className="text-slate-300">.</span>
               </h2>
             </div>
           </div>

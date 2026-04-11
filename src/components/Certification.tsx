@@ -46,7 +46,8 @@ const Certifications = () => {
               Validation
             </span>
             <h2 className="text-4xl md:text-5xl font-serif font-black text-slate-900 leading-tight">
-              Licenses & <span className="text-red-500">Certifications.</span>
+              Licenses & <span className="text-red-500">Certifications</span>
+              <span className="text-slate-300">.</span>
             </h2>
           </div>
           <div className="pb-2">

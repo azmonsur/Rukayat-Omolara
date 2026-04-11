@@ -14,13 +14,13 @@ const Contact = () => {
         Direct Line
       </span>
 
-      {/* Main Heading - Using font-black for that bold premium look */}
+      {/* Main Heading */}
       <h2 className="text-4xl md:text-6xl font-serif font-black mb-10 max-w-4xl leading-tight">
         Let’s discuss fiscal excellence and{" "}
         <span className="italic text-white/90">strategic management.</span>
       </h2>
 
-      {/* Bio Snippet - Balanced with white/40 for hierarchy */}
+      {/* Bio Snippet */}
       <p className="text-white/40 max-w-md mb-20 text-sm leading-relaxed font-medium">
         Currently based in Lagos, supporting the State's financial goals through
         accountability, transparency, and meticulous reporting.
@@ -55,15 +55,18 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Footer Branding Note */}
+      {/* Footer Branding Note - Centered */}
       <div className="mt-32 pt-12 border-t border-white/5 w-full max-w-7xl">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col items-center justify-center gap-8">
           <p className="text-[9px] uppercase tracking-[0.4em] text-white/20 font-black">
             Lagos, Nigeria • Associate Chartered Accountant
           </p>
+
           <div className="flex gap-8 text-[9px] uppercase tracking-[0.4em] font-black text-white/20">
             <a
               href="https://linkedin.com/in/olafoyeke"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#C93D33] transition-colors"
             >
               LinkedIn

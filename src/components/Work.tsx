@@ -38,7 +38,8 @@ const Work = () => {
               Selected Expertise
             </span>
             <h2 className="text-4xl md:text-5xl font-serif font-black text-slate-900 leading-tight">
-              Case Studies & <span className="text-slate-300">Projects.</span>
+              Case Studies & <span className="text-red-500">Projects</span>
+              <span className="text-slate-300">.</span>
             </h2>
           </div>
           <a

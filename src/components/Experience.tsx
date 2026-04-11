@@ -67,9 +67,10 @@ const Experience = () => {
               <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-[#C93D33] block mb-4">
                 Chronicle
               </span>
-              <h2 className="text-4xl md:text-5xl font-serif leading-tight font-black text-slate-900">
+              <h2 className="text-4xl md:text-5xl font-serif font-black text-slate-900 leading-tight">
                 Professional <br />
-                History<span className="text-[#C93D33]">.</span>
+                <span className="text-red-500">History</span>
+                <span className="text-slate-300">.</span>
               </h2>
               <p className="mt-8 text-sm text-slate-400 leading-relaxed max-w-xs">
                 A journey of over seven years driving fiscal accountability and
