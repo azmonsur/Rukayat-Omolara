@@ -56,7 +56,7 @@ const Hero = () => {
               <img
                 src={heroImg}
                 alt="Rukayat Omolara"
-                className="object-cover w-full h-full  hover:grayscale-0 transition-all duration-700"
+                className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
               />
             </div>
           </div>
