@@ -52,7 +52,7 @@ const Hero = () => {
             {/* The white border/frame effect behind the image if you want more UI depth */}
             <div className="absolute inset-0 bg-slate-100 -translate-x-4 translate-y-4 -z-10 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
 
-            <div className="w-full h-full bg-slate-200 overflow-hidden shadow-2xl">
+            <div className="w-full h-full  bg-slate-200 overflow-hidden shadow-2xl">
               <img
                 src={heroImg}
                 alt="Rukayat Omolara"
