@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Certification from "./components/Certification";
 import Work from "./components/Work";
 import Experience from "./components/Experience";
 import About from "./components/About";
@@ -12,6 +13,7 @@ function App() {
     <div className="antialiased">
       <Navbar />
       <Hero />
+      <Certification />
       <About />
       <Work />
       <Experience />

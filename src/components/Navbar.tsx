@@ -48,6 +48,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
+    { name: "Certifications", id: "certifications" },
     { name: "Professional Bio", id: "about" },
     { name: "Portfolio", id: "portfolio" },
     { name: "Experience", id: "experience" },
