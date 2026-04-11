@@ -8,7 +8,6 @@ const Hero = () => {
       className="relative px-12 pt-10 pb-20 overflow-hidden min-h-[800px] flex items-center"
     >
       {/* The Signature Background Bar - Exact UI Match */}
-      {/* This is the pink bar that drops from the top and sits behind the name */}
       <div className="absolute top-0 left-[22%] w-[25%] h-[400px] bg-[#FDE2E4] -z-10" />
 
       <div className="flex flex-col md:flex-row items-center w-full max-w-7xl mx-auto">
@@ -47,9 +46,7 @@ const Hero = () => {
 
         {/* Right Image Side */}
         <div className="md:w-1/2 relative mt-16 md:mt-0 flex justify-end">
-          {/* Main Image Container */}
           <div className="relative w-[480px] h-[580px] group">
-            {/* The white border/frame effect behind the image if you want more UI depth */}
             <div className="absolute inset-0 bg-slate-100 -translate-x-4 translate-y-4 -z-10 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
 
             <div className="w-full h-full  bg-slate-200 overflow-hidden shadow-2xl">
@@ -63,17 +60,50 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Vertical Sidebar Text - Exact UI Alignment */}
-      <div className="absolute right-8 bottom-32 flex flex-col space-y-16 items-center">
-        <span className="rotate-90 origin-right whitespace-nowrap text-[10px] uppercase tracking-[0.2em] font-bold text-slate-400 hover:text-red-500 cursor-pointer transition-colors">
+      {/* Vertical Sidebar Text - Updated colors for light background visibility */}
+      <div className="hidden lg:flex absolute right-0 top-0 h-full w-16 flex-col justify-center items-center z-20 space-y-40">
+        <a
+          href="/ASHIRU_RUKAYAT_OLAFOYEKE_CV.pdf"
+          download="Rukayat_Ashiru_CV.pdf"
+          className="whitespace-nowrap text-[10px] uppercase tracking-[0.4em] font-bold text-slate-400 hover:text-[#C93D33] transition-all duration-300 -rotate-90 origin-center"
+        >
           download cv
-        </span>
-        <span className="rotate-90 origin-right whitespace-nowrap text-[10px] uppercase tracking-[0.2em] font-bold text-slate-400 hover:text-red-500 cursor-pointer transition-colors">
+        </a>
+        <a
+          href="#reviews"
+          className="whitespace-nowrap text-[10px] uppercase tracking-[0.4em] font-bold text-slate-400 hover:text-[#C93D33] transition-all duration-300 -rotate-90 origin-center"
+        >
           client reviews
-        </span>
-        <span className="rotate-90 origin-right whitespace-nowrap text-[10px] uppercase tracking-[0.2em] font-bold text-slate-400 hover:text-red-500 cursor-pointer transition-colors">
+        </a>
+        <a
+          href="#process"
+          className="whitespace-nowrap text-[10px] uppercase tracking-[0.4em] font-bold text-slate-400 hover:text-[#C93D33] transition-all duration-300 -rotate-90 origin-center"
+        >
           my process
-        </span>
+        </a>
+      </div>
+
+      {/* Mobile/Tablet Version */}
+      <div className="lg:hidden absolute bottom-10 left-0 w-full flex justify-center space-x-8 px-6 z-20">
+        <a
+          href="/ASHIRU_RUKAYAT_OLAFOYEKE_CV.pdf"
+          download="Rukayat_Ashiru_CV.pdf"
+          className="text-[9px] uppercase tracking-widest font-bold text-slate-400 border-b border-slate-200 pb-1"
+        >
+          DOWNLOAD CV
+        </a>
+        <a
+          href="#reviews"
+          className="text-[9px] uppercase tracking-widest font-bold text-slate-400 border-b border-slate-200 pb-1"
+        >
+          Reviews
+        </a>
+        <a
+          href="#process"
+          className="text-[9px] uppercase tracking-widest font-bold text-slate-400 border-b border-slate-200 pb-1"
+        >
+          Process
+        </a>
       </div>
     </section>
   );
