@@ -11,7 +11,7 @@ const Contact = () => {
 
       {/* Small Header Tag */}
       <span className="text-[10px] uppercase tracking-[0.5em] font-black text-[#C93D33] mb-8 block">
-        Direct Line
+        Get In Touch
       </span>
 
       {/* Main Heading */}

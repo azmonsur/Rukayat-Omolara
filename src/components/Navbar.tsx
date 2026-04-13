@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 // Standard SVG paths to replace the missing Lucide icons
 const XIcon = () => (
@@ -41,8 +41,6 @@ const InstagramIcon = () => (
     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
   </svg>
 );
-
-// ... Keep your XIcon, LinkedinIcon, InstagramIcon components here ...
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

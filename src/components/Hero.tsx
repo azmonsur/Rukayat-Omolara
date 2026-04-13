@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative px-12 pt-10 pb-20 overflow-hidden min-h-[800px] flex items-center"
+      className="relative px-12 pt10 pb-20 overflow-hidden min-h-[800px] flex items-center"
     >
       {/* The Signature Background Bar - Exact UI Match */}
       <div className="absolute top-0 left-[22%] w-[25%] h-[400px] bg-[#FDE2E4] -z-10" />
@@ -17,8 +17,9 @@ const Hero = () => {
             HELLO THERE, NICE TO MEET YOU ❤️, I AM
           </span>
 
-          <h1 className="text-[100px] md:text-[120px] font-serif leading-[0.85] text-[#C93D33] mb-8 font-black">
-            rukayat<span className="text-slate-900">.</span>
+          <h1 className="text-[100px] md:text-[110px] font-serif leading-[0.85] text-[#C93D33] mb-8 font-black">
+            rukayat <br />
+            ashiru<span className="text-slate-300">.</span>
           </h1>
 
           <div className="space-y-6 max-w-lg">
